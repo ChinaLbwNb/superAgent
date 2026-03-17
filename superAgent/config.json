@@ -1,0 +1,23 @@
+{
+  "model": "Pro/zai-org/GLM-5",
+  "api_key": "sk-ebhhhonlzivpmkjprtsxbtqmlqwertlqnkpaxilhujzkornk",
+  "api_base": "https://api.siliconflow.cn/v1",
+  "provider": "openai",
+  "max_tokens": 4096,
+  "temperature": 0.7,
+  "max_tool_iterations": 20,
+  "workspace": ".",
+  "restrict_to_workspace": true,
+  "system_prompt": "You are superAgent, a powerful AI assistant. You can use tools to help users with their tasks.",
+  "telegram": {
+    "token": "",
+    "allowed_users": []
+  },
+  "cron": {
+    "enabled": false
+  },
+  "heartbeat": {
+    "enabled": false,
+    "interval_seconds": 300
+  }
+}
